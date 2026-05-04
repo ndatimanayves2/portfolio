@@ -1,0 +1,30 @@
+{
+  "name": "ndatimana-yves-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Ndatimana Yves - Fullstack Developer",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "cd frontend-react && npm run build",
+    "dev:frontend": "cd frontend-react && npm run dev"
+  },
+  "keywords": [
+    "portfolio",
+    "fullstack",
+    "developer",
+    "nodejs",
+    "express"
+  ],
+  "author": "Ndatimana Yves",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
